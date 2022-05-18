@@ -1,0 +1,37 @@
+body {
+    font-family: Helvetica;
+    text-align: center;
+    color: rgb(127, 139, 253);
+    background-color: rgb(6, 93, 128);
+    padding: 0;
+    margin: 0;
+}  
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    border-bottom: 1px solid rgba(189, 224, 30, 0.548)
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+ul li{
+    margin-right: 10px;
+}
+ul li a{
+    color: rgb(16, 236, 189);
+} 
+h1 {
+    font-size: 32px;
+}
+img {
+    border: 1px solid rgb(60, 189, 248);
+}
+footer{
+    padding: 20px;
+    border-top: 1px solid rgb(10, 165, 165);
+    margin-top: 20px;
+    font-size: 20px;
+}
